@@ -2,15 +2,22 @@
 
 $(document).ready(function () {
  
+
   $('.saveBtn').on('click', function () {
+
+    var value = $(this).siblings('.description').val();
+    var time = $(this).parent().attr('id');
+    
+
+    localStorage.setItem(time, value);
+
     $('#saved').show();
 
     document.textContent("saved")
 
-    var input = $(this).siblings('.description').val();
+    
 
 
-    localStorage.setItem(time, input);
 
   });
 
@@ -26,6 +33,6 @@ $(document).ready(function () {
 
 
 
-  $('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'));
+  $('#currentDay').text(dayjs().format('MMMM DD , YYYY'));
 });
 
