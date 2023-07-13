@@ -1,4 +1,5 @@
-
+$('#hour').text(dayjs().format('H'));
+console.log(hour)
 
 $(document).ready(function () {
  
@@ -15,7 +16,7 @@ $(document).ready(function () {
 
     document.textContent("saved")
 
-    
+
 
 
 
@@ -34,5 +35,8 @@ $(document).ready(function () {
 
 
   $('#currentDay').text(dayjs().format('MMMM DD , YYYY'));
-});
+  console.log(currentDay)
+//  couldnt figure out how to change block colors.
 
+  
+});
