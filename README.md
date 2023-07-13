@@ -1,10 +1,33 @@
 # Daily-Planner
-Your Task
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am–5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-You'll need to use the Day.js library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+
+# Project Description
+This application is meant to keep your busy schedule organized. It does so by keeping track of your todos by the hour. It also color coordinates past, present and future so you can tell what to do is coming up at a glance.
+
+#link to project
+
+#Include screenshots
+![Alt text](image-1.png)
+
+
+#Built With
+- JavaScript
+- HTML
+- CSS
+
+
+
+
+Support
+I was not able to figure out how to make the colors change with the hour. This is something to further address.
+_______________________________________________________________________________________________________________
+
+
+
+
+
+
 
 User Story
-
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
